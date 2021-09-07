@@ -1,0 +1,7 @@
+---
+- name: Update web servers
+  hosts: web
+
+  roles:
+    - project
+    - geerlingguy.java
